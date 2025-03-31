@@ -1,0 +1,24 @@
+{
+  "name": "post-api-project",
+  "version": "1.0.0",
+  "description": "A simple POST API that receives JSON data and stores it in MongoDB.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/app.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^5.8.2"
+  },
+  "author": "Seshathri R",
+  "license": "ISC"
+}
